@@ -11,21 +11,14 @@ export default function Creerpersonnage() {
                     <label>Username</label>
                     <input type="text" placeholder="john" />
                 </div>
-                <div className="creerpersonnageItem">
-                    <label>Full Name</label>
-                    <input type="text" placeholder="John Smith" />
-                </div>
-                <div className="creerpersonnageItem">
-                    <label>Email</label>
-                    <input type="email" placeholder="john@gmail.com" />
-                </div>
+
                 <div className="creerpersonnageItem">
                     <label>Niveau</label>
                     <input type="password" placeholder="ELITE" />
                 </div>
                 <div className="creerpersonnageItem">
                     <label>Force</label>
-                    <input type="text" placeholder="Force" />
+                    <input type="text" placeholder="../10" />
                 </div>
                 <div className="creerpersonnageItem">
                     <label>Dexterité</label>

@@ -1,8 +1,11 @@
 import React from 'react'
 import "./sidebar.css"
 import { MdLineStyle } from "react-icons/md";
-import {FiTrendingUp,FiUser} from "react-icons/fi";
-import { MdTimeline,MdFeedback ,MdOutlineReport} from "react-icons/md";
+import {FiUser} from "react-icons/fi";
+import { MdDelete ,} from "react-icons/md";
+import { AiOutlineUserAdd } from "react-icons/ai";
+
+
 export default function sidebar() {
   return (
     <div className='sidebar'>
@@ -15,36 +18,24 @@ export default function sidebar() {
                       Home
                   </li>
                   <li className='sidebarListItem'>
-                      <MdTimeline />
+                      <AiOutlineUserAdd />
                       Crée un Personnage
                   </li>
                   <li className='sidebarListItem'>
-                      <FiTrendingUp />
+                      <MdDelete />
                       Suppprimer un personnage
                   </li>
                   <li className='sidebarListItem'>
                       <FiUser />
-                      chercher un personnage
+                      Chercher un personnage
                   </li>
-              </ul>
-          </div>
-          <div className='sidebarMenu'>
-              <h3 className='sidebarTitle>'>Menu</h3>
-              <ul className="sidebarList">
                   <li className='sidebarListItem'>
                       <FiUser />
-                      Users
-                  </li>
-                  <li className='sidebarListItem'>
-                      <MdFeedback />
-                      FeedBack
-                  </li>
-                  <li className='sidebarListItem'>
-                      <MdOutlineReport />
-                      Report
+                      Votre presonnage
                   </li>
               </ul>
           </div>
+
 
       </div>
     </div>
