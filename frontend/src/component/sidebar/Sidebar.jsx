@@ -16,11 +16,15 @@ export default function sidebar() {
                   </li>
                   <li className='sidebarListItem'>
                       <MdTimeline />
-                      analytics
+                      Crée un Personnage
                   </li>
                   <li className='sidebarListItem'>
                       <FiTrendingUp />
-                      Sales
+                      Suppprimer un personnage
+                  </li>
+                  <li className='sidebarListItem'>
+                      <FiUser />
+                      chercher un personnage
                   </li>
               </ul>
           </div>

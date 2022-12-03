@@ -1,19 +1,19 @@
 .sidebar{
     flex: 1;
     height: calc(100vh - 50px);
-    background-color: rgb(251 ,251 ,255);
+    background-color: darkred;
     position: sticky;
     top: 50px
 }
 .sidebarWrapper{
     padding: 20px;
-    color:#555 ;
+    color:gray ;
 }
 .sidebarMenu{
     margin-bottom: 10px;
 }
 .siberbarTitle{
-    font-size: 13px;
+    font-size: 10px;
     color: rgb(197,194,194)
 }
 .sidebarList{
