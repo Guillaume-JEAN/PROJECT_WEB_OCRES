@@ -5,7 +5,7 @@ import "./creerpersonnage.css"
 export default function Creerpersonnage() {
     return (
         <div className="creerpersonnage">
-            <h1 className="creerpersonnageTitle">New User</h1>
+            <h1 className="creerpersonnageTitle">Creer votre Personnage</h1>
             <form className="creerpersonnageForm">
                 <div className="creerpersonnageItem">
                     <label>Username</label>
@@ -25,23 +25,23 @@ export default function Creerpersonnage() {
                 </div>
                 <div className="creerpersonnageItem">
                     <label>Force</label>
-                    <input type="text" placeholder="+1 123 456 78" />
+                    <input type="text" placeholder="Force" />
                 </div>
                 <div className="creerpersonnageItem">
                     <label>Dexterité</label>
-                    <input type="text" placeholder="New York | USA" />
+                    <input type="text" placeholder="Dexterité" />
                 </div>
                 <div className="creerpersonnageItem">
                     <label>Constitution</label>
-                    <input type="text" placeholder="New York | USA" />
+                    <input type="text" placeholder="Constitution" />
                     </div>
                 <div className="creerpersonnageItem">
                     <label>Sagesse</label>
-                    <input type="text" placeholder="New York | USA" />
+                    <input type="text" placeholder="Sagesse" />
                 </div>
                 <div className="creerpersonnageItem">
                     <label>Charisme</label>
-                    <input type="text" placeholder="New York | USA" />
+                    <input type="text" placeholder="Charisme" />
                 </div>
 
                 <div className="creerpersonnageItem">
