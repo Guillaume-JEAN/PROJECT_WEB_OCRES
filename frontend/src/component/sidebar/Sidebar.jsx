@@ -19,7 +19,7 @@ export default function sidebar() {
                   </li>
                   <li className='sidebarListItem'>
                       <AiOutlineUserAdd />
-                      Crée un Personnage
+                      Créer un Personnage
                   </li>
                   <li className='sidebarListItem'>
                       <MdDelete />
