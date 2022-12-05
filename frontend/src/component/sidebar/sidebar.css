@@ -1,13 +1,13 @@
 .sidebar{
     flex: 1;
     height: calc(100vh - 50px);
-    background-color: darkred;
+    background-color: cadetblue;
     position: sticky;
     top: 50px
 }
 .sidebarWrapper{
     padding: 20px;
-    color:gray ;
+    color:black ;
 }
 .sidebarMenu{
     margin-bottom: 10px;
@@ -25,6 +25,6 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    background-color: #d38807;
+    background-color: steelblue;
 
 }

@@ -10,7 +10,7 @@
 .supprimerpersonnageButton{
     width: 200px;
     border: none;
-    background-color: darkred;
+    background-color: steelblue;
     color: white;
     padding: 7px 10px;
     font-weight: 600;
@@ -28,7 +28,7 @@
 
     margin: 50px;
     border: 3px solid#333;
-    background-color: #d38807;
+    background-color: steelblue;
 }
 .flexbox-item-1{
     min-height:  800px;
