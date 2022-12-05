@@ -20,6 +20,13 @@ export default function Chercherpersonnage(){
 
                 </div>
             </form>
+            <div className="flexbox-container">
+                <div className="flexbox-item- flexbox-item-1">
+
+
+                </div>
+
+            </div>
 
         </div>
     )

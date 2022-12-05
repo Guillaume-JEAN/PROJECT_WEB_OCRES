@@ -55,3 +55,18 @@
     margin-top: 30px;
     cursor: pointer;
 }
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+}
+.flexbox-item-1{
+
+    width: 100px;
+
+    margin: 50px;
+    border: 3px solid#333;
+    background-color: #d38807;
+}
+.flexbox-item-1{
+    min-height:  200px;
+}
