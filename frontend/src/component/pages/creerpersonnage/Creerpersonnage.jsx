@@ -62,8 +62,6 @@ export default function Creerpersonnage() {
                     <div className="creerpersonnageItem">
                         <input type="text" placeholder="Entrez la discription du visage de votre personnage en Anglais" />
                     </div>
-
-
                 </div>
 
             </div>
