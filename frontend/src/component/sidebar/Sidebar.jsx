@@ -17,34 +17,34 @@ export default function sidebar() {
                   <li className='sidebarListItem'>
                       <MdLineStyle />
                       <Link to="/">
-                          <p className={'${activeTab=== "Home"?"active:""}'}>Home</p>
+                          <p className={'{activeTab=== "Home"?"active:""}'}>Home</p>
                       </Link>
                   </li>
                   <li className='sidebarListItem'>
                       <AiOutlineUserAdd />
                       <Link to="/CréerunPersonnage/:id">
-                          <p className={'${activeTab=== "Créer un Personnage"?"active:""}'}>Créer un Personnage</p>
+                          <p className={'{activeTab=== "Créer un Personnage"?"active:""}'}>Créer un Personnage</p>
                       </Link>
 
                   </li>
                   <li className='sidebarListItem'>
                       <MdDelete />
                       <Link to="/Supprimerunpersonnage/:id">
-                          <p className={'${activeTab=== "Supprimer un personnage/:id"?"active:""}'}>Suppprimer un personnage</p>
+                          <p className={'{activeTab=== "Supprimer un personnage/:id"?"active:""}'}>Suppprimer un personnage</p>
                       </Link>
 
                   </li>
                   <li className='sidebarListItem'>
                       <FiUser />
                       <Link to="/Chercherunpersonnage">
-                          <p className={'${activeTab=== "chercher un personnage/:id"?"active:""}'}>Chercher un personnage</p>
+                          <p className={'{activeTab=== "chercher un personnage/:id"?"active:""}'}>Chercher un personnage</p>
                       </Link>
 
                   </li>
                   <li className='sidebarListItem'>
                       <FiUser />
                       <Link to="/Votrepersonnage">
-                          <p className={'${activeTab=== "/Votrepersonnage"?"active:""}'}>Votre presonnage</p>
+                          <p className={'{activeTab=== "/Votrepersonnage"?"active:""}'}>Votre presonnage</p>
                       </Link>
 
                   </li>
