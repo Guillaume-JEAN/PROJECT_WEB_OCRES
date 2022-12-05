@@ -1,5 +1,6 @@
 import React from 'react'
 import "./chercherpersonnage.css"
+import {Link} from "react-router-dom";
 export default function Chercherpersonnage(){
     return(
         <div className="recherche">
@@ -11,7 +12,11 @@ export default function Chercherpersonnage(){
                     className="search"
                     placeholder="Search..."
                      />
-                    <button className="ChercherpersonnageButton">Afficher le personnage</button>
+                    <button className="ChercherpersonnageButton">
+                        <Link to="/Votrepersonnage">
+                            <p className={'{activeTab=== "/Votrepersonnage"?"active:""}'}>Afficher le personnage</p>
+                        </Link>
+                    </button>
 
                 </div>
             </form>

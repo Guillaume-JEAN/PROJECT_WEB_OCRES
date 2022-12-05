@@ -2,6 +2,7 @@ import React from 'react'
 import './supprimerpersonnage.css'
 
 
+
 export default function Supprimerpersonnage(){
     return(
         <div className="recherche">
@@ -13,7 +14,11 @@ export default function Supprimerpersonnage(){
                         className="search"
                         placeholder="Search..."
                     />
-                    <button className="supprimerpersonnageButton">Supprimer le personnage</button>
+                    <button className="supprimerpersonnageButton">
+                        Supprimer le personnage
+
+                    </button>
+
 
                 </div>
             </form>
