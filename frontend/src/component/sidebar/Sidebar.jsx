@@ -4,6 +4,7 @@ import { MdLineStyle } from "react-icons/md";
 import {FiUser} from "react-icons/fi";
 import { MdDelete ,} from "react-icons/md";
 import { AiOutlineUserAdd } from "react-icons/ai";
+import {Link} from "react-router-dom"
 
 
 export default function sidebar() {
@@ -15,23 +16,37 @@ export default function sidebar() {
               <ul className="sidebarList">
                   <li className='sidebarListItem'>
                       <MdLineStyle />
-                      Home
+                      <Link to="/">
+                          <p className={'${activeTab=== "Home"?"active:""}'}>Home</p>
+                      </Link>
                   </li>
                   <li className='sidebarListItem'>
                       <AiOutlineUserAdd />
-                      Créer un Personnage
+                      <Link to="/CréerunPersonnage/:id">
+                          <p className={'${activeTab=== "Créer un Personnage"?"active:""}'}>Créer un Personnage</p>
+                      </Link>
+
                   </li>
                   <li className='sidebarListItem'>
                       <MdDelete />
-                      Suppprimer un personnage
+                      <Link to="/Supprimerunpersonnage/:id">
+                          <p className={'${activeTab=== "Supprimer un personnage/:id"?"active:""}'}>Suppprimer un personnage</p>
+                      </Link>
+
                   </li>
                   <li className='sidebarListItem'>
                       <FiUser />
-                      Chercher un personnage
+                      <Link to="/Chercherunpersonnage">
+                          <p className={'${activeTab=== "chercher un personnage/:id"?"active:""}'}>Chercher un personnage</p>
+                      </Link>
+
                   </li>
                   <li className='sidebarListItem'>
                       <FiUser />
-                      Votre presonnage
+                      <Link to="/Votrepersonnage">
+                          <p className={'${activeTab=== "/Votrepersonnage"?"active:""}'}>Votre presonnage</p>
+                      </Link>
+
                   </li>
               </ul>
           </div>
