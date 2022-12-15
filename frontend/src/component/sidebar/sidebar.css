@@ -1,7 +1,7 @@
 .sidebar{
     flex: 1;
     height: calc(100vh - 50px);
-    background-color: cadetblue;
+    background-color: #5d0505;
     position: sticky;
     top: 50px
 }
@@ -14,7 +14,7 @@
 }
 .siberbarTitle{
     font-size: 10px;
-    color: rgb(197,194,194)
+    color: rgb(192, 92, 92)
 }
 .sidebarList{
     list-style: none;
@@ -25,6 +25,6 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    background-color: steelblue;
+    background-color: dimgray;
 
 }
