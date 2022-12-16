@@ -44,7 +44,7 @@ export default function sidebar() {
                   <li className='sidebarListItem'>
                       <FiUser />
                       <Link to="/Votrepersonnage">
-                          <p className={'{activeTab=== "/Votrepersonnage"?"active:""}'}>Votre presonnage</p>
+                          <p className={'{activeTab=== "/Votrepersonnage"?"active:""}'}>Votre personnage</p>
                       </Link>
 
                   </li>
