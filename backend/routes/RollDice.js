@@ -1,15 +1,16 @@
 const axios = require("axios");
 
-const options = {
+const GetDice = {
     method: 'GET',
-    url: 'https://dragonzy-tabletop-game-dice.p.rapidapi.com/d20',
+    url: 'https://roll-the-dice.p.rapidapi.com/',
+    params: {count: '2'},
     headers: {
-        'X-RapidAPI-Key': 'e3bc8490f7mshcdd642d0348fdf5p1775c9jsn58ce353a8426',
-        'X-RapidAPI-Host': 'dragonzy-tabletop-game-dice.p.rapidapi.com'
+        'X-RapidAPI-Key': '701b4d9889msh8db275bcb0a1d92p15c4c5jsn15120d91e9c5',
+        'X-RapidAPI-Host': 'roll-the-dice.p.rapidapi.com'
     }
 };
 
-axios.request(options).then(function (response) {
+axios.request(GetDice).then(function (response) {
     console.log(response.data);
 }).catch(function (error) {
     console.error(error);
